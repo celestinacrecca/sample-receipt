@@ -1,0 +1,38 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float discount, discountedprice, originalprice, vat, tax, total;
+    printf("\nRainy Day Sale, Mga KA-SHOPPLALUS!");
+    printf("\n\nWelcome To Gaisano Malaybalay!");
+    printf("\nAddress:Sayre Highway,Malaybalay City,Bukidnon");
+    printf("\n8700,Bukidnon");
+    printf("\n\n\nEnter the originalprice: ");
+    scanf("%f", &originalprice);
+    {
+    }    
+        discount = .5;
+        printf("\n\nDiscount: 5 percent");
+    {
+    }    
+        discountedprice = originalprice * discount;
+        printf("\n\nDiscountedPrice: %.2f", discountedprice);
+    {
+    }    
+        vat = originalprice * 0.12;
+        printf("\n\nVAT Amount: %.2f", vat);
+    {
+    }    
+        tax = originalprice - vat;
+        printf("\n\nTaxableAmount: %.2f", tax);
+    {
+    }    
+        total = originalprice * discount;
+        printf("\n\nTotal Payable Amouunt: %.2f", total);
+        printf("\n\n\n======HAPPY RAINY DAY SALE!=======");
+        printf("\n\nThank you, Shoppers!");
+        {
+        }    
+        return 0;
+
+            
+        }      
